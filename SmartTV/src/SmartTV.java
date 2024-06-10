@@ -18,4 +18,14 @@ public class SmartTV {
     public void desligar(){
         ligada = false;
     }
+    public void mudarCanal(int novoCanal){
+        canal = novoCanal;
+
+    }
+    public void aumentarCanal(){
+        canal++;
+    }
+    public void diminuircanal(){
+        canal--;
+    }
 }
