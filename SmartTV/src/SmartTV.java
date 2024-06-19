@@ -29,5 +29,7 @@ public class SmartTV {
     }
     public void diminuircanal(){
         canal--;
+
+    
     }
 }
